@@ -1,15 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Approved Sites</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+    <!-- Header Section -->
     <header>
         <img src="https://asset.knovon.net/Knovon_black.png" alt="Knovon Logo" class="logo">
     </header>
+
+    <!-- Search Bar Section -->
+    <div id="search-bar-container">
+        <input type="text" id="search-bar" placeholder="Search sites...">
+    </div>
+
+    <!-- Main Content Section -->
     <main>
-        <div id="search-bar-container">
-            <input type="text" id="search-bar" placeholder="Search sites...">
-        </div>
         <div class="cards-container" id="cards-container">
-            <!-- Cards will be dynamically inserted here -->
+            <!-- Cards dynamically populated via JavaScript -->
         </div>
     </main>
+
+    <!-- Footer Section -->
     <footer>
         <img src="https://asset.knovon.net/Knovon_black.png" alt="Knovon Logo" class="footer-logo">
         <div class="footer-text">
@@ -17,4 +32,6 @@
             <img src="https://asset.knovon.net/Knovon_black.png" alt="Knovon Logo">
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
+</html>
