@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const cardsContainer = document.getElementById("cards-container");
     const searchBar = document.getElementById("search-bar");
-    const defaultIcon = "https://via.placeholder.com/60"; // Default icon URL
-    const dataUrl = "./sites.json"; // File is in the same directory
+    const dataUrl = "./sites.json"; // Pulls JSON file from the same directory
+    const defaultIcon = "https://via.placeholder.com/60"; // Default icon
 
     let sites = [];
 
