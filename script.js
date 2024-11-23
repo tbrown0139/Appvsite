@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const cardsContainer = document.getElementById("cards-container");
     const searchBar = document.getElementById("search-bar");
     const defaultIcon = "https://via.placeholder.com/60"; // Default icon URL
-    const dataUrl = "https://raw.githubusercontent.com/yourusername/approved-sites/main/sites.json"; // Replace with your GitHub raw URL
+    const dataUrl = "./sites.json"; // File is in the same directory
 
     let sites = [];
 
@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <img src="${site.icon || defaultIcon}" alt="${site.title} Icon">
                 <div class="card-title">${site.title}</div>
             `;
-           
-::contentReference[oaicite:0]{index=0}
- 
+            card.onclick = () => window.open(site.url, "_blank");
+            cardsContainer.appendChild(card);
+        });
+    }
+});
