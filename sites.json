@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Canva",
+        "url": "https://canva.com",
+        "icon": "https://www.canva.com/favicon.ico"
+    },
+    {
+        "title": "Knovon",
+        "url": "https://knovon.org",
+        "icon": "https://knovon.org/favicon.ico"
+    },
+    {
+        "title": "Knovon Tab",
+        "url": "https://knovon.org",
+        "icon": "https://knovon.org/favicon.ico"
+    },
+    {
+        "title": "Cloudflare",
+        "url": "https://cloudflare.com",
+        "icon": "https://www.cloudflare.com/favicon.ico"
+    },
+    {
+        "title": "Disney Plus",
+        "url": "https://www.disneyplus.com/",
+        "icon": "https://www.disneyplus.com/favicon.ico"
+    },
+    {
+        "title": "GitHub",
+        "url": "https://github.com/",
+        "icon": "https://github.com/favicon.ico"
+    },
+    {
+        "title": "Email",
+        "url": "https://mail.knovon.org",
+        "icon": "https://mail.knovon.org/favicon.ico"
+    }
+]
