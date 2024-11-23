@@ -1,15 +1,17 @@
+/* General Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
 }
 
+/* Header Styles */
 header {
-    padding: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -23,8 +25,18 @@ header {
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    transition: all 0.3s ease;
 }
 
+/* Search Bar Focus Animation */
+#search-bar:focus {
+    outline: none;
+    border-color: #0078d7;
+    box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+    transform: scale(1.05);
+}
+
+/* Main Content Styles */
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -34,31 +46,43 @@ header {
     margin: 0 auto;
 }
 
+/* Card Styles */
 .card {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* Card Hover Animation */
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Card Image */
 .card img {
     height: 60px;
     margin-bottom: 10px;
+    transition: transform 0.3s ease;
 }
 
+/* Card Image Hover Animation */
+.card:hover img {
+    transform: scale(1.1);
+}
+
+/* Card Title */
 .card-title {
     font-size: 14px;
     color: #333333;
+    margin-top: 10px;
 }
 
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 10px;
@@ -66,4 +90,5 @@ footer {
     margin-top: 20px;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
     font-size: 14px;
+    color: #555555;
 }
